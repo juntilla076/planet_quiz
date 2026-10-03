@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvQuestionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnMercury"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_mercury"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnVenus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_venus"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnEarth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_earth"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnMars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_mars"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnJupiter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_jupiter"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnSaturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_saturn"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnUranus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_uranus"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnNeptune"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/planet_neptune"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
